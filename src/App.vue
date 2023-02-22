@@ -31,6 +31,9 @@ import products from './product'
 
 export default {
   name: 'App',
+  created() {
+    console.warn(process.env)
+  },
   data(){
       return { 
           baseColor: 'color: blue',
